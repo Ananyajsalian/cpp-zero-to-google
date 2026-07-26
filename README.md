@@ -13,7 +13,7 @@ I'm documenting my complete DSA journey with C++.
 ### Phase 1: C++ Foundation - In Progress
 - [ ] Variables, Loops, Functions
 - [x] Arrays ✅ COMPLETED
-- [ ] Strings
+- [x] Strings ✅ COMPLETED
 - [ ] Pointers & References
 - [ ] OOP - Classes, Inheritance, Polymorphism
 
@@ -21,7 +21,7 @@ I'm documenting my complete DSA journey with C++.
 - [ ] Recursion & Backtracking
 - [ ] Linked List, Stack, Queue
 - [ ] Trees & BST
-- [ ] Hashing
+- [x] Hashing 🔄 IN PROGRESS
 - [ ] Graphs
 - [ ] DP
 
