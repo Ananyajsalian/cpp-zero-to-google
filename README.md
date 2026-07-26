@@ -49,5 +49,16 @@ LinkedIn: [add your link] | Email: [add your email]
 **Completed:** 26 July 2026 
 **LeetCode Links:** 189, 53, 283, 26, 189
 
-## Phase 2: Strings ⏳ Next Up
-Coming soon...
+Phase 2: Strings ✅ COMPLETED
+
+| # | Problem | Approach | Time | Space | Status |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Reverse String | Two Pointers | O(n) | O(1) | ✅ |
+| 2 | Valid Palindrome | Two Pointers | O(n) | O(1) | ✅ |
+| 3 | Reverse Words | Split + Reverse | O(n) | O(n) | ✅ |
+| 4 | Longest Common Prefix | Horizontal Scan | O(S) | O(1) | ✅ |
+| 5 | Valid Anagram | Frequency Array | O(n) | O(1) | ✅ |
+
+Completed: 26 July 2026 LeetCode Links: 344, 125, 151, 14, 242
+
+
