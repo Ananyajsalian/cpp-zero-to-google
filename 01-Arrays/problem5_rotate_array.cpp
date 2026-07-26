@@ -1,34 +1,52 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
+/*
+Problem: Rotate Array by K Steps
+LeetCode: 189
+Approach: Reverse Method / 3 Reversals
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+DESCRIPTION:
+Rotate the array to the right by k steps.
+We do it in-place using 3 reversals:
+1. Reverse whole array
+2. Reverse first k elements  
+3. Reverse remaining n-k elements
+*/
+
+#include<bits/stdc++.h>
 using namespace std;
 
-// Problem 5: Rotate Array by K steps
-// Time: O(n) | Space: O(1)
-// Approach: Reverse whole array, then reverse first k, then reverse rest
-
-void rotate(vector<int>& arr, int k) {
-    int n = arr.size();
-    k = k % n; // handle k > n
-    
-    reverse(arr.begin(), arr.end());
-    reverse(arr.begin(), arr.begin() + k);
-    reverse(arr.begin() + k, arr.end());
-}
-
 int main() {
-    vector<int> arr = {1, 2, 3, 4, 5};
-    int k = 2;
+    // 1. UNDERSTAND + INPUT
+    vector<int> arr = {1, 2, 3, 4, 5, 6, 7};
+    int k = 3; // rotate by 3 steps
+    k = k % arr.size(); // handle k > n
     
-    cout << "Before: ";
-    for (int x : arr) cout << x << " ";
+    cout << "Original Array: ";
+    for(int x : arr) cout << x << " ";
     cout << endl;
+    cout << "Rotate by k = " << k << endl;
+
+    // 2. PLAN: Reverse Method - 3 reversals
     
-    rotate(arr, k);
+    // 3. CODE: CORE LOGIC
+    // Step 1: Reverse entire array
+    reverse(arr.begin(), arr.end());
     
-    cout << "After rotating by " << k << ": ";
-    for (int x : arr) cout << x << " ";
+    // Step 2: Reverse first k elements
+    reverse(arr.begin(), arr.begin() + k);
+    
+    // Step 3: Reverse remaining elements
+    reverse(arr.begin() + k, arr.end());
+
+    // 4. DRY RUN: [1,2,3,4,5,6,7] k=3 
+    // -> [7,6,5,4,3,2,1] -> [5,6,7,4,3,2,1] -> [5,6,7,1,2,3,4]
+    // 5. COMPLEXITY: Time O(n), Space O(1)
+
+    cout << "Array after rotation: ";
+    for(int x : arr) cout << x << " ";
     cout << endl;
-    
+
     return 0;
 }
+    
