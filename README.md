@@ -2,9 +2,9 @@
 My journey from C++ basics to Google STEP Internship 2027
 
 ## About Me
-I'm Ananya, CSE 1st Year student at Presidency University, Bangalore.
+I'm Ananya, CSE 1st Year student at AJ Institute of Engineering and Technology, Mangalore.
 I'm documenting my complete DSA journey with C++.
-**Goal**: Crack Google STEP Internship @ Bangalore 2027
+**Goal**: Crack Google STEP Internship @ Bangalore 2027 → Full Time SWE @ Google Banglore
 
 ## Tech Stack
 `C++` `Git` `GitHub` `VS Code` `LeetCode`
