@@ -12,7 +12,8 @@ I'm documenting my complete DSA journey with C++.
 ## Progress Tracker 📈
 ### Phase 1: C++ Foundation - In Progress
 - [ ] Variables, Loops, Functions
-- [ ] Arrays & Strings
+- [x] Arrays ✅ COMPLETED
+- [ ] Strings
 - [ ] Pointers & References
 - [ ] OOP - Classes, Inheritance, Polymorphism
 
@@ -29,8 +30,24 @@ I'm documenting my complete DSA journey with C++.
 - [ ] 200+ LeetCode Problems
 
 ## Stats
-**Problems Solved**: 0/200
+**Problems Solved**: 5/200
 **Last Updated**: 26 July 2026
 
 ## Connect with me
 LinkedIn: [add your link] | Email: [add your email]
+---
+
+## Phase 1: Arrays ✅ COMPLETED
+| # | Problem | Approach | Time | Space | Status |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Reverse Array | Two Pointers | O(n) | O(1) | ✅ |
+| 2 | Find Max-Min | Single Pass | O(n) | O(1) | ✅ |
+| 3 | Move Zeroes | Two Pointers | O(n) | O(1) | ✅ |
+| 4 | Remove Duplicates | Two Pointers | O(n) | O(1) | ✅ |
+| 5 | Rotate Array by K | 3 Reversals | O(n) | O(1) | ✅ |
+
+**Completed:** 26 July 2026 
+**LeetCode Links:** 189, 53, 283, 26, 189
+
+## Phase 2: Strings ⏳ Next Up
+Coming soon...
